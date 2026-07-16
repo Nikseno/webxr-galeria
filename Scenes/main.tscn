@@ -1,0 +1,703 @@
+[gd_scene format=3 uid="uid://hqalxp1slxbe"]
+
+[ext_resource type="Script" uid="uid://b5ioj1e5kkjpb" path="res://Assets/Scripts/gallery.gd" id="1_d1ilt"]
+[ext_resource type="Environment" uid="uid://y8tugirmq4jr" path="res://Scenes/new_environment.tres" id="1_jjgbg"]
+[ext_resource type="PackedScene" uid="uid://uikr7s6g2vlr" path="res://Assets/Everything/Goniec/Goniec.glb" id="2_344ge"]
+[ext_resource type="PackedScene" uid="uid://bs53d70bropfs" path="res://Assets/Everything/Hetman/Hetman.glb" id="3_ynf5e"]
+[ext_resource type="Texture2D" uid="uid://5wu7nmr5gs2v" path="res://Assets/Everything/Goniec/Textury/nowe/Goniec_Bake1_PBR_Diffuse.jpg" id="4_8cuat"]
+[ext_resource type="PackedScene" uid="uid://ba0if53vxvq2w" path="res://Assets/Everything/Pionek/pionek.glb" id="4_hptm8"]
+[ext_resource type="PackedScene" uid="uid://m666bk21wjhp" path="res://Assets/Everything/Skoczek/Skoczek.glb" id="5_d1ilt"]
+[ext_resource type="Texture2D" uid="uid://j1vcaktriddr" path="res://Assets/Everything/Goniec/Textury/Goniec_Bake1_PBR_Clearcoat.jpg" id="5_nwwfm"]
+[ext_resource type="PackedScene" uid="uid://cmnviplckj5rf" path="res://Assets/Everything/wieża/Wieża.glb" id="6_6iyac"]
+[ext_resource type="Texture2D" uid="uid://bekv0enug4imv" path="res://Assets/Everything/Goniec/Textury/Goniec_Bake1_PBR_Metalness.jpg" id="6_s8vy0"]
+[ext_resource type="PackedScene" uid="uid://c1yx84ypnhooa" path="res://Assets/Everything/Enviro/L1 - Main/CaleOK.glb" id="7_fdnlq"]
+[ext_resource type="Texture2D" uid="uid://v72mssn6utp6" path="res://Assets/Everything/Goniec/Textury/nowe/Goniec_Bake1_PBR_Normal.jpg" id="7_jut3y"]
+[ext_resource type="PackedScene" uid="uid://dktvqun363nbs" path="res://Assets/Everything/Król/Król.glb" id="7_ynf5e"]
+[ext_resource type="PackedScene" uid="uid://cii5w4d21n5yx" path="res://Assets/Everything/Enviro/L2 - Distant/CaleOK.glb" id="8_jkdf5"]
+[ext_resource type="Texture2D" uid="uid://ssrkmgnbn4yw" path="res://Assets/Everything/Goniec/Textury/Goniec_Bake1_PBR_Roughness.jpg" id="8_v2nl5"]
+[ext_resource type="Texture2D" uid="uid://bx4g6ne4lxoas" path="res://Assets/Everything/Hetman/Textury/Nowe/Krolowa_Bake1_PBR_Diffuse.jpg" id="10_dmskm"]
+[ext_resource type="Texture2D" uid="uid://n1r0jw1mv1yy" path="res://Assets/Everything/Hetman/Textury/Krolowa.001_Bake1_PBR_Ambient Occlusion.jpg" id="11_xdkp6"]
+[ext_resource type="Texture2D" uid="uid://b5i7lymrecicr" path="res://Assets/Everything/Hetman/Textury/Krolowa.001_Bake1_PBR_Emission Strength.jpg" id="12_54nrm"]
+[ext_resource type="Texture2D" uid="uid://do6xwqkfyyv6" path="res://Assets/Everything/Hetman/Textury/Krolowa.001_Bake1_PBR_Metalness.jpg" id="13_55jeb"]
+[ext_resource type="Texture2D" uid="uid://dmitajcmpr0ao" path="res://Assets/Everything/Hetman/Textury/Nowe/Krolowa_Bake1_PBR_Normal.jpg" id="14_gsvbx"]
+[ext_resource type="Texture2D" uid="uid://sddquw7nks7t" path="res://Assets/Everything/Hetman/Textury/Krolowa.001_Bake1_PBR_Roughness.jpg" id="15_bv80c"]
+[ext_resource type="Texture2D" uid="uid://b0j0tde8nnksm" path="res://Assets/Everything/Pionek/Textury/nowe/Pionek_Bake1_PBR_Diffuse.jpg" id="17_ptfg5"]
+[ext_resource type="Texture2D" uid="uid://c5wfdw315ibcq" path="res://Assets/Everything/Pionek/Textury/Pionek_Bake1_PBR_Ambient Occlusion.jpg" id="18_2daye"]
+[ext_resource type="Texture2D" uid="uid://b54vsqdc7tnqx" path="res://Assets/Everything/Pionek/Textury/Pionek_Bake1_PBR_Roughness.jpg" id="19_1semv"]
+[ext_resource type="Texture2D" uid="uid://bfvhwtmv1yl6l" path="res://Assets/Everything/Skoczek/Textury/nowe/Skoczek_Bake1_PBR_Diffuse.jpg" id="21_2060n"]
+[ext_resource type="Texture2D" uid="uid://ddv2tmqpxcmeo" path="res://Assets/Everything/Skoczek/Textury/Skoczek_Bake1_PBR_Emission Strength.jpg" id="22_6ml46"]
+[ext_resource type="Texture2D" uid="uid://bc4sui41gs6n4" path="res://Assets/Everything/Skoczek/Textury/Skoczek_Bake1_PBR_Metalness.jpg" id="23_qax2n"]
+[ext_resource type="Texture2D" uid="uid://c7my4trakmxo1" path="res://Assets/Everything/Skoczek/Textury/nowe/Skoczek_Bake1_PBR_Normal.jpg" id="24_y86h7"]
+[ext_resource type="Texture2D" uid="uid://kbeimyt73ypl" path="res://Assets/Everything/Skoczek/Textury/Skoczek_Bake1_PBR_Roughness.jpg" id="25_my4ki"]
+[ext_resource type="Texture2D" uid="uid://5kftpq6j0fg0" path="res://Assets/Everything/wieża/Textury/nowe/Gora_wiezy_Bake1_PBR_Diffuse.jpg" id="27_lx3vj"]
+[ext_resource type="Texture2D" uid="uid://bbjmq1i7gpd04" path="res://Assets/Everything/wieża/Textury/Gora_wiezy_Bake1_PBR_Ambient Occlusion.jpg" id="28_ynmfv"]
+[ext_resource type="Texture2D" uid="uid://docaelq8vrmp7" path="res://Assets/Everything/wieża/Textury/Gora_wiezy_Bake1_PBR_Metalness.jpg" id="29_cblf0"]
+[ext_resource type="Texture2D" uid="uid://b7uyc6dvmnaph" path="res://Assets/Everything/wieża/Textury/nowe/Gora_wiezy_Bake1_PBR_Normal.jpg" id="30_nay3j"]
+[ext_resource type="Texture2D" uid="uid://hlp4f57k2yxr" path="res://Assets/Everything/wieża/Textury/Gora_wiezy_Bake1_PBR_Roughness.jpg" id="31_ovafv"]
+[ext_resource type="Texture2D" uid="uid://byql8egu5lmlx" path="res://Assets/Everything/wieża/Textury/nowe/Wieza_Bake1_PBR_Diffuse.1001.jpg" id="32_owhal"]
+[ext_resource type="Texture2D" uid="uid://cxalc46c172" path="res://Assets/Everything/wieża/Textury/Wieza_Bake1_PBR_Ambient Occlusion.1001.jpg" id="33_uv6w5"]
+[ext_resource type="Texture2D" uid="uid://cmvxk325yfm4x" path="res://Assets/Everything/wieża/Textury/Wieza_Bake1_PBR_Metalness.1001.jpg" id="34_r7bbj"]
+[ext_resource type="Texture2D" uid="uid://7abl70dm8nl1" path="res://Assets/Everything/wieża/Textury/nowe/Wieza_Bake1_PBR_Normal.1001.jpg" id="35_e5peh"]
+[ext_resource type="Texture2D" uid="uid://bw4aeyhg504vs" path="res://Assets/Everything/wieża/Textury/Wieza_Bake1_PBR_Roughness.1001.jpg" id="36_f6rfp"]
+[ext_resource type="Texture2D" uid="uid://bi08woyiksvkp" path="res://Assets/Everything/Król/Textury/nowe/king_Bake1_PBR_Diffuse.jpg" id="38_sasc4"]
+[ext_resource type="Texture2D" uid="uid://ccx07tysr6rda" path="res://Assets/Everything/Król/Textury/king_Bake1_PBR_Ambient Occlusion.jpg" id="39_pfx1i"]
+[ext_resource type="Texture2D" uid="uid://bhsnmhnvaojkc" path="res://Assets/Everything/Król/Textury/king_Bake1_PBR_Emission Strength.jpg" id="40_fg68e"]
+[ext_resource type="Texture2D" uid="uid://dy0rwe3qdfe55" path="res://Assets/Everything/Król/Textury/king_Bake1_PBR_Metalness.jpg" id="41_jekl6"]
+[ext_resource type="Texture2D" uid="uid://brao28jaxj1vn" path="res://Assets/Everything/Król/Textury/nowe/king_Bake1_PBR_Normal.jpg" id="42_v1mrv"]
+[ext_resource type="Texture2D" uid="uid://s7ubya5bfgfi" path="res://Assets/Everything/Król/Textury/king_Bake1_PBR_Roughness.jpg" id="43_fd3ed"]
+[ext_resource type="Texture2D" uid="uid://dn7yubstnic6g" path="res://Assets/Everything/Enviro/L1 - Main/Textury/Scena_Podłoga/Scena_Podłoga_Bake1_PBR_Diffuse.jpg" id="45_ylsbi"]
+[ext_resource type="Texture2D" uid="uid://cxkg2w67j8egj" path="res://Assets/Everything/Enviro/L1 - Main/Textury/Scena_Podłoga/Scena_Podłoga_Bake1_PBR_Ambient Occlusion.jpg" id="46_ceghn"]
+[ext_resource type="Texture2D" uid="uid://dpw5sf6hjpcvp" path="res://Assets/Everything/Enviro/L1 - Main/Textury/Scena_Podłoga/Scena_Podłoga_Bake1_PBR_Metalness.jpg" id="47_3h4bx"]
+[ext_resource type="Texture2D" uid="uid://blcrdc8kcxatu" path="res://Assets/Everything/Enviro/L1 - Main/Textury/Scena_Podłoga/Scena_Podłoga_Bake1_PBR_Normal.jpg" id="48_xg142"]
+[ext_resource type="Texture2D" uid="uid://d2i1us1wanjie" path="res://Assets/Everything/Enviro/L1 - Main/Textury/Scena_Podłoga/Scena_Podłoga_Bake1_PBR_Roughness.jpg" id="49_rlvxq"]
+[ext_resource type="Texture2D" uid="uid://lsld62m2nuhq" path="res://Assets/Everything/Enviro/L1 - Main/Textury/Scena/Scena_Bake1_PBR_Diffuse.1001.jpg" id="50_0fjpc"]
+[ext_resource type="Texture2D" uid="uid://bgrl2u4ujvpw6" path="res://Assets/Everything/Enviro/L1 - Main/Textury/Scena/Scena_Bake1_PBR_Ambient Occlusion.1001.jpg" id="51_gdwd6"]
+[ext_resource type="Texture2D" uid="uid://c6jkk00jd3joo" path="res://Assets/Everything/Enviro/L1 - Main/Textury/Scena/Scena_Bake1_PBR_Metalness.1001.jpg" id="52_cmq5c"]
+[ext_resource type="Texture2D" uid="uid://cs7ckenem85gm" path="res://Assets/Everything/Enviro/L1 - Main/Textury/Scena/Scena_Bake1_PBR_Normal.1001.jpg" id="53_7t1gx"]
+[ext_resource type="Texture2D" uid="uid://dau1ijyr0q2mb" path="res://Assets/Everything/Enviro/L1 - Main/Textury/Scena/Scena_Bake1_PBR_Roughness.1001.jpg" id="54_mfvrx"]
+[ext_resource type="Texture2D" uid="uid://b4hmryh7okrk" path="res://Assets/Everything/Enviro/L1 - Main/Textury/Ozdoba_Sceny/Ozdoba_Sceny_Bake1_PBR_Diffuse.jpg" id="55_ilwxp"]
+[ext_resource type="Texture2D" uid="uid://fne4hlfs5qg2" path="res://Assets/Everything/Enviro/L1 - Main/Textury/Ozdoba_Sceny/Ozdoba_Sceny_Bake1_PBR_Ambient Occlusion.jpg" id="56_xjjvj"]
+[ext_resource type="Texture2D" uid="uid://dc0v344ixugro" path="res://Assets/Everything/Enviro/L1 - Main/Textury/Ozdoba_Sceny/Ozdoba_Sceny_Bake1_PBR_Metalness.jpg" id="57_jab21"]
+[ext_resource type="Texture2D" uid="uid://ckejy7djcaexc" path="res://Assets/Everything/Enviro/L1 - Main/Textury/Ozdoba_Sceny/Ozdoba_Sceny_Bake1_PBR_Normal.jpg" id="58_8dylv"]
+[ext_resource type="Texture2D" uid="uid://x515dceb3x07" path="res://Assets/Everything/Enviro/L1 - Main/Textury/Ozdoba_Sceny/Ozdoba_Sceny_Bake1_PBR_Roughness.jpg" id="59_qv1an"]
+[ext_resource type="Texture2D" uid="uid://cjqpkokuxgj8s" path="res://Assets/Everything/Enviro/L1 - Main/Textury/Wystawa/Wystawa_Bake1_PBR_Diffuse.jpg" id="60_ja2pg"]
+[ext_resource type="Texture2D" uid="uid://cyoh462m14toa" path="res://Assets/Everything/Enviro/L1 - Main/Textury/Wystawa/Wystawa_Bake1_PBR_Ambient Occlusion.jpg" id="61_0wopu"]
+[ext_resource type="Texture2D" uid="uid://dw1lr2ah6x4ji" path="res://Assets/Everything/Enviro/L1 - Main/Textury/Wystawa/Wystawa_Bake1_PBR_Metalness.jpg" id="62_na2ur"]
+[ext_resource type="Texture2D" uid="uid://bsu8qqkxgb0fv" path="res://Assets/Everything/Enviro/L1 - Main/Textury/Wystawa/Wystawa_Bake1_PBR_Normal.jpg" id="63_rlvdk"]
+[ext_resource type="Texture2D" uid="uid://cfe15yq6ntpi4" path="res://Assets/Everything/Enviro/L1 - Main/Textury/Wystawa/Wystawa_Bake1_PBR_Roughness.jpg" id="64_t6wb6"]
+[ext_resource type="Texture2D" uid="uid://dc0j1yopwptyp" path="res://Assets/Everything/Enviro/L1 - Main/Textury/Scena_Zloto/Scena_Zloto_Bake1_PBR_Diffuse.jpg" id="65_fvjqb"]
+[ext_resource type="Texture2D" uid="uid://b5vhlqd3tv1jd" path="res://Assets/Everything/Enviro/L1 - Main/Textury/Scena_Zloto/Scena_Zloto_Bake1_PBR_Ambient Occlusion.jpg" id="66_b05pg"]
+[ext_resource type="Texture2D" uid="uid://cwao5f4n83x2r" path="res://Assets/Everything/Enviro/L1 - Main/Textury/Scena_Zloto/Scena_Zloto_Bake1_PBR_Metalness.jpg" id="67_bdqux"]
+[ext_resource type="Texture2D" uid="uid://d13mbmf7rj85u" path="res://Assets/Everything/Enviro/L1 - Main/Textury/Scena_Zloto/Scena_Zloto_Bake1_PBR_Normal.jpg" id="68_e1jjv"]
+[ext_resource type="Texture2D" uid="uid://s3y02n0jdc24" path="res://Assets/Everything/Enviro/L1 - Main/Textury/Scena_Zloto/Scena_Zloto_Bake1_PBR_Roughness.jpg" id="69_stool"]
+[ext_resource type="Texture2D" uid="uid://cn6561ox0sme1" path="res://Assets/Everything/Enviro/L1 - Main/Textury/Kamienie_1/Kamienie_1_Bake1_PBR_Diffuse.jpg" id="70_ci23i"]
+[ext_resource type="Texture2D" uid="uid://8l3fprul1pkd" path="res://Assets/Everything/Enviro/L1 - Main/Textury/Kamienie_1/Kamienie_1_Bake1_PBR_Ambient Occlusion.jpg" id="71_myryv"]
+[ext_resource type="Texture2D" uid="uid://i26bwtesow4s" path="res://Assets/Everything/Enviro/L1 - Main/Textury/Kamienie_1/Kamienie_1_Bake1_PBR_Metalness.jpg" id="72_bpr0e"]
+[ext_resource type="Texture2D" uid="uid://cbt4mcv3fy6fj" path="res://Assets/Everything/Enviro/L1 - Main/Textury/Kamienie_1/Kamienie_1_Bake1_PBR_Normal.jpg" id="73_14mkc"]
+[ext_resource type="Texture2D" uid="uid://cejqqojusadpk" path="res://Assets/Everything/Enviro/L1 - Main/Textury/Kamienie_1/Kamienie_1_Bake1_PBR_Roughness.jpg" id="74_l78ku"]
+[ext_resource type="Texture2D" uid="uid://1eqh3m777vka" path="res://Assets/Everything/Enviro/L2 - Distant/Textury/kamienie_3.419/kamienie_3.419_Bake1_PBR_Diffuse.jpg" id="76_hfu3o"]
+[ext_resource type="Texture2D" uid="uid://cg2xncrhegdji" path="res://Assets/Everything/Enviro/L2 - Distant/Textury/kamienie_3.419/kamienie_3.419_Bake1_PBR_Ambient Occlusion.jpg" id="77_adgm5"]
+[ext_resource type="Texture2D" uid="uid://dt1tcqgq1ajqa" path="res://Assets/Everything/Enviro/L2 - Distant/Textury/kamienie_3.419/kamienie_3.419_Bake1_PBR_Metalness.jpg" id="78_qxkn4"]
+[ext_resource type="Texture2D" uid="uid://ybrfumspclls" path="res://Assets/Everything/Enviro/L2 - Distant/Textury/kamienie_3.419/kamienie_3.419_Bake1_PBR_Normal.jpg" id="79_130ps"]
+[ext_resource type="Texture2D" uid="uid://bpuj5yal4sbku" path="res://Assets/Everything/Enviro/L2 - Distant/Textury/kamienie_3.419/kamienie_3.419_Bake1_PBR_Roughness.jpg" id="80_odn5n"]
+[ext_resource type="Texture2D" uid="uid://v64trwp7eqty" path="res://Assets/Everything/Enviro/L2 - Distant/Textury/Gigant/Gigant_Bake1_PBR_Diffuse.jpg" id="81_b12iu"]
+[ext_resource type="Texture2D" uid="uid://dqh32wvhciqaw" path="res://Assets/Everything/Enviro/L2 - Distant/Textury/Gigant/Gigant_Bake1_PBR_Ambient Occlusion.jpg" id="82_gf7g1"]
+[ext_resource type="Texture2D" uid="uid://cxc0y2pswxsrl" path="res://Assets/Everything/Enviro/L2 - Distant/Textury/Gigant/Gigant_Bake1_PBR_Metalness.jpg" id="83_102yd"]
+[ext_resource type="Texture2D" uid="uid://mhlpepq0hn7f" path="res://Assets/Everything/Enviro/L2 - Distant/Textury/Gigant/Gigant_Bake1_PBR_Normal.jpg" id="84_rtmaq"]
+[ext_resource type="Texture2D" uid="uid://cslo3jqm0ejnw" path="res://Assets/Everything/Enviro/L2 - Distant/Textury/Gigant/Gigant_Bake1_PBR_Roughness.jpg" id="85_eqnci"]
+[ext_resource type="Texture2D" uid="uid://di3oaaxfmtf4g" path="res://Assets/Everything/Enviro/L2 - Distant/Textury/Sphere/Sphere_Bake1_PBR_Diffuse.jpg" id="86_ojylq"]
+[ext_resource type="Texture2D" uid="uid://dofjfp5p5v3cl" path="res://Assets/Everything/Enviro/L2 - Distant/Textury/Sphere/Sphere_Bake1_PBR_Ambient Occlusion.jpg" id="87_fle1e"]
+[ext_resource type="Texture2D" uid="uid://lfbs7p2ajm0b" path="res://Assets/Everything/Enviro/L2 - Distant/Textury/Sphere/Sphere_Bake1_PBR_Metalness.jpg" id="88_r1tr8"]
+[ext_resource type="Texture2D" uid="uid://c6ijxbmyidsxr" path="res://Assets/Everything/Enviro/L2 - Distant/Textury/Sphere/Sphere_Bake1_PBR_Normal.jpg" id="89_vlivj"]
+[ext_resource type="Texture2D" uid="uid://l1i056itocrg" path="res://Assets/Everything/Enviro/L2 - Distant/Textury/Sphere/Sphere_Bake1_PBR_Roughness.jpg" id="90_wt5iu"]
+[ext_resource type="Texture2D" uid="uid://4e76mgxpgcpi" path="res://Assets/Everything/Enviro/L2 - Distant/Textury/Sphere.001/Sphere.001_Bake1_PBR_Diffuse.jpg" id="91_pmnrr"]
+[ext_resource type="Texture2D" uid="uid://5o6cyu8sxnit" path="res://Assets/Everything/Enviro/L2 - Distant/Textury/Sphere.001/Sphere.001_Bake1_PBR_Ambient Occlusion.jpg" id="92_s8cid"]
+[ext_resource type="Texture2D" uid="uid://bxn6aesw3ctue" path="res://Assets/Everything/Enviro/L2 - Distant/Textury/Sphere.001/Sphere.001_Bake1_PBR_Metalness.jpg" id="93_0w4wg"]
+[ext_resource type="Texture2D" uid="uid://8yjirm0utrv3" path="res://Assets/Everything/Enviro/L2 - Distant/Textury/Sphere.001/Sphere.001_Bake1_PBR_Normal.jpg" id="94_dllok"]
+[ext_resource type="Texture2D" uid="uid://bpckntavvm01l" path="res://Assets/Everything/Enviro/L2 - Distant/Textury/Sphere.001/Sphere.001_Bake1_PBR_Roughness.jpg" id="95_0t4jf"]
+[ext_resource type="Texture2D" uid="uid://sycrd17a3lr6" path="res://Assets/Everything/Enviro/L2 - Distant/Textury/kratki giganta/kratki giganta_Bake1_PBR_Diffuse.jpg" id="96_daoo8"]
+[ext_resource type="Texture2D" uid="uid://dvy8bo56nlatf" path="res://Assets/Everything/Enviro/L2 - Distant/Textury/kratki giganta/kratki giganta_Bake1_PBR_Ambient Occlusion.jpg" id="97_fnc5k"]
+[ext_resource type="Texture2D" uid="uid://b5uhehjsuw61m" path="res://Assets/Everything/Enviro/L2 - Distant/Textury/kratki giganta/kratki giganta_Bake1_PBR_Metalness.jpg" id="98_658pa"]
+[ext_resource type="Texture2D" uid="uid://bd63qsk3rcbdd" path="res://Assets/Everything/Enviro/L2 - Distant/Textury/kratki giganta/kratki giganta_Bake1_PBR_Normal.jpg" id="99_gax0l"]
+[ext_resource type="Texture2D" uid="uid://bulttl10ddivk" path="res://Assets/Everything/Enviro/L2 - Distant/Textury/kratki giganta/kratki giganta_Bake1_PBR_Roughness.jpg" id="100_11vbv"]
+[ext_resource type="Texture2D" uid="uid://c1f2dxi654pph" path="res://Assets/Everything/Enviro/L2 - Distant/Textury/Circle/Circle_Bake1_PBR_Diffuse.jpg" id="101_m6w5j"]
+[ext_resource type="Texture2D" uid="uid://1j7rapmmcbil" path="res://Assets/Everything/Enviro/L2 - Distant/Textury/Circle/Circle_Bake1_PBR_Ambient Occlusion.jpg" id="102_hprjy"]
+[ext_resource type="Texture2D" uid="uid://ci70vctdvikw8" path="res://Assets/Everything/Enviro/L2 - Distant/Textury/Circle/Circle_Bake1_PBR_Metalness.jpg" id="103_qhhnr"]
+[ext_resource type="Texture2D" uid="uid://chb7iuvrtcdbv" path="res://Assets/Everything/Enviro/L2 - Distant/Textury/Circle/Circle_Bake1_PBR_Normal.jpg" id="104_32yv2"]
+[ext_resource type="Texture2D" uid="uid://drdjv52dywuyn" path="res://Assets/Everything/Enviro/L2 - Distant/Textury/Circle/Circle_Bake1_PBR_Roughness.jpg" id="105_85qtq"]
+[ext_resource type="Texture2D" uid="uid://bujtmxa15djyx" path="res://Assets/Everything/Enviro/L2 - Distant/Textury/Circle.003/Circle.003_Bake1_PBR_Diffuse.jpg" id="106_8d8ul"]
+[ext_resource type="Texture2D" uid="uid://cbj3ro66ujsus" path="res://Assets/Everything/Enviro/L2 - Distant/Textury/Circle.003/Circle.003_Bake1_PBR_Ambient Occlusion.jpg" id="107_tctli"]
+[ext_resource type="Texture2D" uid="uid://c4g6p65cuy8n7" path="res://Assets/Everything/Enviro/L2 - Distant/Textury/Circle.003/Circle.003_Bake1_PBR_Metalness.jpg" id="108_3qdko"]
+[ext_resource type="Texture2D" uid="uid://ds5o7v5hekfrs" path="res://Assets/Everything/Enviro/L2 - Distant/Textury/Circle.003/Circle.003_Bake1_PBR_Normal.jpg" id="109_4fylk"]
+[ext_resource type="Texture2D" uid="uid://cgpvscvupmugj" path="res://Assets/Everything/Enviro/L2 - Distant/Textury/Circle.003/Circle.003_Bake1_PBR_Roughness.jpg" id="110_fmflf"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qnggo"]
+albedo_texture = ExtResource("4_8cuat")
+metallic = 1.0
+metallic_texture = ExtResource("6_s8vy0")
+roughness_texture = ExtResource("8_v2nl5")
+normal_enabled = true
+normal_scale = 2.79
+normal_texture = ExtResource("7_jut3y")
+clearcoat_enabled = true
+clearcoat_texture = ExtResource("5_nwwfm")
+
+[sub_resource type="Animation" id="Animation_d1ilt"]
+length = 0.001
+tracks/0/type = "bezier"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position:y")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(0, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+tracks/1/type = "bezier"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:rotation:x")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(0, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+tracks/2/type = "bezier"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".:rotation:y")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(0, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+tracks/3/type = "bezier"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath(".:rotation:z")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(0, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+
+[sub_resource type="Animation" id="Animation_6iyac"]
+resource_name = "Rotate_360"
+length = 7.0
+tracks/0/type = "bezier"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation:x")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"handle_modes": PackedInt32Array(0, 0, 0),
+"points": PackedFloat32Array(0, -0.25, 0, 0.25, 0, -0.10260989, -0.25, 0, 0.25, 0, 0, 0, 0, 0, 0),
+"times": PackedFloat32Array(0, 0.5, 7)
+}
+tracks/1/type = "bezier"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:rotation:y")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"handle_modes": PackedInt32Array(0, 0),
+"points": PackedFloat32Array(0, -0.25, 0, 0.25, 0, 6.2831855, 0, 0, 0, 0),
+"times": PackedFloat32Array(0, 7)
+}
+tracks/2/type = "bezier"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".:rotation:z")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"handle_modes": PackedInt32Array(0, 0, 0),
+"points": PackedFloat32Array(0, -0.25, 0, 0.25, 0, -0.2028728, -0.25, 0, 0.25, 0, 0, 0, 0, 0, 0),
+"times": PackedFloat32Array(0, 0.5, 7)
+}
+tracks/3/type = "bezier"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath(".:position:y")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"handle_modes": PackedInt32Array(0, 0, 0, 0, 0),
+"points": PackedFloat32Array(0, -0.25, 0, 0.25, 0, 0.9478425, -0.25, 0, 0.25, 0, 1.5893123, -0.25, 0, 0.25, 0, 1.0535308, -0.25, 0, 0.25, 0, 0, 0, 0, 0, 0),
+"times": PackedFloat32Array(0, 1, 3.4333334, 6.0333333, 7)
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_fdnlq"]
+_data = {
+&"RESET": SubResource("Animation_d1ilt"),
+&"Rotate_360": SubResource("Animation_6iyac")
+}
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tab3y"]
+albedo_texture = ExtResource("10_dmskm")
+metallic = 1.0
+metallic_texture = ExtResource("13_55jeb")
+roughness_texture = ExtResource("15_bv80c")
+emission_enabled = true
+emission = Color(0.33684906, 0.7061813, 0.33289462, 1)
+emission_energy_multiplier = 1.22
+emission_operator = 1
+emission_texture = ExtResource("12_54nrm")
+normal_enabled = true
+normal_texture = ExtResource("14_gsvbx")
+ao_enabled = true
+ao_texture = ExtResource("11_xdkp6")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1tvlp"]
+albedo_texture = ExtResource("17_ptfg5")
+roughness_texture = ExtResource("19_1semv")
+ao_enabled = true
+ao_texture = ExtResource("18_2daye")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wl4bb"]
+albedo_texture = ExtResource("21_2060n")
+metallic = 1.0
+metallic_texture = ExtResource("23_qax2n")
+roughness_texture = ExtResource("25_my4ki")
+emission_enabled = true
+emission = Color(0.09565555, 0.41367012, 0.5061066, 1)
+emission_energy_multiplier = 4.2
+emission_operator = 1
+emission_texture = ExtResource("22_6ml46")
+normal_enabled = true
+normal_texture = ExtResource("24_y86h7")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6h1fc"]
+albedo_texture = ExtResource("27_lx3vj")
+metallic = 1.0
+metallic_texture = ExtResource("29_cblf0")
+roughness_texture = ExtResource("31_ovafv")
+normal_enabled = true
+normal_texture = ExtResource("30_nay3j")
+ao_enabled = true
+ao_texture = ExtResource("28_ynmfv")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vxl7x"]
+albedo_texture = ExtResource("32_owhal")
+metallic = 1.0
+metallic_texture = ExtResource("34_r7bbj")
+roughness_texture = ExtResource("36_f6rfp")
+normal_enabled = true
+normal_texture = ExtResource("35_e5peh")
+ao_enabled = true
+ao_texture = ExtResource("33_uv6w5")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ihvwq"]
+albedo_texture = ExtResource("38_sasc4")
+metallic = 1.0
+metallic_texture = ExtResource("41_jekl6")
+roughness_texture = ExtResource("43_fd3ed")
+emission_enabled = true
+emission = Color(0.4614827, 0.25144017, 0.12089669, 1)
+emission_energy_multiplier = 3.5
+emission_operator = 1
+emission_texture = ExtResource("40_fg68e")
+normal_enabled = true
+normal_scale = 2.65
+normal_texture = ExtResource("42_v1mrv")
+ao_enabled = true
+ao_texture = ExtResource("39_pfx1i")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6lvi0"]
+albedo_texture = ExtResource("45_ylsbi")
+metallic = 1.0
+metallic_texture = ExtResource("47_3h4bx")
+roughness_texture = ExtResource("49_rlvxq")
+normal_enabled = true
+normal_texture = ExtResource("48_xg142")
+ao_enabled = true
+ao_texture = ExtResource("46_ceghn")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2rlip"]
+albedo_texture = ExtResource("50_0fjpc")
+metallic = 1.0
+metallic_texture = ExtResource("52_cmq5c")
+roughness_texture = ExtResource("54_mfvrx")
+normal_enabled = true
+normal_scale = 1.32
+normal_texture = ExtResource("53_7t1gx")
+ao_enabled = true
+ao_texture = ExtResource("51_gdwd6")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_peks8"]
+albedo_texture = ExtResource("55_ilwxp")
+metallic = 1.0
+metallic_texture = ExtResource("57_jab21")
+roughness_texture = ExtResource("59_qv1an")
+normal_enabled = true
+normal_texture = ExtResource("58_8dylv")
+ao_enabled = true
+ao_texture = ExtResource("56_xjjvj")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ve7nm"]
+albedo_texture = ExtResource("60_ja2pg")
+metallic = 1.0
+metallic_texture = ExtResource("62_na2ur")
+roughness_texture = ExtResource("64_t6wb6")
+normal_enabled = true
+normal_texture = ExtResource("63_rlvdk")
+ao_enabled = true
+ao_texture = ExtResource("61_0wopu")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sbvnb"]
+albedo_texture = ExtResource("65_fvjqb")
+metallic = 1.0
+metallic_texture = ExtResource("67_bdqux")
+roughness_texture = ExtResource("69_stool")
+normal_enabled = true
+normal_texture = ExtResource("68_e1jjv")
+ao_enabled = true
+ao_texture = ExtResource("66_b05pg")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pkhog"]
+albedo_texture = ExtResource("70_ci23i")
+metallic = 1.0
+metallic_texture = ExtResource("72_bpr0e")
+roughness_texture = ExtResource("74_l78ku")
+normal_enabled = true
+normal_scale = 0.78
+normal_texture = ExtResource("73_14mkc")
+ao_enabled = true
+ao_texture = ExtResource("71_myryv")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_b4mg0"]
+albedo_texture = ExtResource("76_hfu3o")
+metallic = 1.0
+metallic_texture = ExtResource("78_qxkn4")
+roughness_texture = ExtResource("80_odn5n")
+normal_enabled = true
+normal_scale = 0.33
+normal_texture = ExtResource("79_130ps")
+ao_enabled = true
+ao_texture = ExtResource("77_adgm5")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_g52ui"]
+albedo_texture = ExtResource("81_b12iu")
+metallic = 1.0
+metallic_texture = ExtResource("83_102yd")
+roughness_texture = ExtResource("85_eqnci")
+normal_enabled = true
+normal_texture = ExtResource("84_rtmaq")
+ao_enabled = true
+ao_texture = ExtResource("82_gf7g1")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_144ni"]
+albedo_texture = ExtResource("86_ojylq")
+metallic = 1.0
+metallic_texture = ExtResource("88_r1tr8")
+roughness_texture = ExtResource("90_wt5iu")
+normal_enabled = true
+normal_texture = ExtResource("89_vlivj")
+ao_enabled = true
+ao_texture = ExtResource("87_fle1e")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vm2ri"]
+albedo_texture = ExtResource("91_pmnrr")
+metallic = 1.0
+metallic_texture = ExtResource("93_0w4wg")
+roughness_texture = ExtResource("95_0t4jf")
+normal_enabled = true
+normal_texture = ExtResource("94_dllok")
+ao_enabled = true
+ao_texture = ExtResource("92_s8cid")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_reygs"]
+albedo_texture = ExtResource("96_daoo8")
+metallic = 1.0
+metallic_texture = ExtResource("98_658pa")
+roughness_texture = ExtResource("100_11vbv")
+normal_enabled = true
+normal_texture = ExtResource("99_gax0l")
+ao_enabled = true
+ao_texture = ExtResource("97_fnc5k")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tlp2u"]
+albedo_texture = ExtResource("101_m6w5j")
+metallic = 1.0
+metallic_texture = ExtResource("103_qhhnr")
+roughness_texture = ExtResource("105_85qtq")
+normal_enabled = true
+normal_texture = ExtResource("104_32yv2")
+ao_enabled = true
+ao_texture = ExtResource("102_hprjy")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wx2j7"]
+albedo_texture = ExtResource("106_8d8ul")
+metallic = 1.0
+metallic_texture = ExtResource("108_3qdko")
+roughness_texture = ExtResource("110_fmflf")
+normal_enabled = true
+normal_texture = ExtResource("109_4fylk")
+ao_enabled = true
+ao_texture = ExtResource("107_tctli")
+
+[node name="Node3D" type="Node3D" unique_id=334754852 node_paths=PackedStringArray("camera", "teleport_points", "figures", "env_distant", "env_main", "world_env", "fps_label")]
+script = ExtResource("1_d1ilt")
+camera = NodePath("Camera3D")
+teleport_points = [NodePath("Teleport_Pionts/P0_Center"), NodePath("Teleport_Pionts/P1_Pionek"), NodePath("Teleport_Pionts/P2_Wieza"), NodePath("Teleport_Pionts/P3_Goniec"), NodePath("Teleport_Pionts/P4_Skoczek"), NodePath("Teleport_Pionts/P5_Hetman"), NodePath("Teleport_Pionts/P6_Krol")]
+figures = [NodePath("Pionki/pionek"), NodePath("Pionki/Wieża"), NodePath("Pionki/Goniec"), NodePath("Pionki/Skoczek"), NodePath("Pionki/Hetman"), NodePath("Pionki/Król")]
+env_distant = NodePath("Enviro/L2/CaleOK")
+env_main = NodePath("Enviro/L1/CaleOK")
+world_env = NodePath("WorldEnvironment")
+fps_label = NodePath("UI/FPSlabel")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1708793056]
+environment = ExtResource("1_jjgbg")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1725499208]
+transform = Transform3D(0.8660254, -0.35355338, 0.35355338, 0, 0.70710677, 0.70710677, -0.5, -0.6123724, 0.6123724, 0, 0, 0)
+light_color = Color(1, 0.89411765, 0.70980394, 1)
+light_energy = 3.0
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=1810078993]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.7, 0)
+far = 500.0
+
+[node name="Pionki" type="Node3D" parent="." unique_id=540002029]
+
+[node name="Goniec" parent="Pionki" unique_id=1884680238 instance=ExtResource("2_344ge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.3, 0, -3.7)
+
+[node name="Goniec_Baked" parent="Pionki/Goniec" index="0" unique_id=307412030]
+material_override = SubResource("StandardMaterial3D_qnggo")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Pionki/Goniec" unique_id=1309813359]
+libraries/ = SubResource("AnimationLibrary_fdnlq")
+
+[node name="Hetman" parent="Pionki" unique_id=1877635843 instance=ExtResource("3_ynf5e")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.2999997, 0, 3.6)
+
+[node name="Krolowa_001_Baked" parent="Pionki/Hetman" index="0" unique_id=1502268382]
+material_override = SubResource("StandardMaterial3D_tab3y")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Pionki/Hetman" unique_id=1826979090]
+libraries/ = SubResource("AnimationLibrary_fdnlq")
+
+[node name="pionek" parent="Pionki" unique_id=578148843 instance=ExtResource("4_hptm8")]
+transform = Transform3D(0.99999994, 0, 0, 0, 0.99999964, 0, 0, 0, 1.0000001, 0.009108841, 0, 7.332706)
+
+[node name="Pionek_Baked" parent="Pionki/pionek" index="0" unique_id=1415466497]
+material_override = SubResource("StandardMaterial3D_1tvlp")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Pionki/pionek" unique_id=1209418890]
+libraries/ = SubResource("AnimationLibrary_fdnlq")
+
+[node name="Skoczek" parent="Pionki" unique_id=337729308 instance=ExtResource("5_d1ilt")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.06471963, 0, -7.3075557)
+
+[node name="Skoczek_Baked" parent="Pionki/Skoczek" index="0" unique_id=951011468]
+material_override = SubResource("StandardMaterial3D_wl4bb")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Pionki/Skoczek" unique_id=633521260]
+libraries/ = SubResource("AnimationLibrary_fdnlq")
+
+[node name="Wieża" parent="Pionki" unique_id=1101644132 instance=ExtResource("6_6iyac")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.3999996, 0, -3.7000003)
+
+[node name="Gora_wiezy_Baked" parent="Pionki/Wieża" index="0" unique_id=301951665]
+material_override = SubResource("StandardMaterial3D_6h1fc")
+
+[node name="Wieza_Baked" parent="Pionki/Wieża" index="1" unique_id=1067875216]
+material_override = SubResource("StandardMaterial3D_vxl7x")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Pionki/Wieża" unique_id=1665718832]
+libraries/ = SubResource("AnimationLibrary_fdnlq")
+
+[node name="Król" parent="Pionki" unique_id=1141457988 instance=ExtResource("7_ynf5e")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.3, 0, 3.7000003)
+
+[node name="king_Baked_001" parent="Pionki/Król" index="0" unique_id=729305522]
+material_override = SubResource("StandardMaterial3D_ihvwq")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Pionki/Król" unique_id=1244612568]
+libraries/ = SubResource("AnimationLibrary_fdnlq")
+
+[node name="Enviro" type="Node3D" parent="." unique_id=2027674082]
+
+[node name="L1" type="Node3D" parent="Enviro" unique_id=1214890528]
+
+[node name="CaleOK" parent="Enviro/L1" unique_id=323114785 instance=ExtResource("7_fdnlq")]
+
+[node name="Scena_Podłoga_Baked" parent="Enviro/L1/CaleOK" index="0" unique_id=365224248]
+material_override = SubResource("StandardMaterial3D_6lvi0")
+
+[node name="Scena_Baked" parent="Enviro/L1/CaleOK" index="1" unique_id=2029978733]
+material_override = SubResource("StandardMaterial3D_2rlip")
+
+[node name="Ozdoba_Sceny_Baked" parent="Enviro/L1/CaleOK" index="2" unique_id=1307628119]
+material_override = SubResource("StandardMaterial3D_peks8")
+
+[node name="Wystawa_Baked" parent="Enviro/L1/CaleOK" index="3" unique_id=401582596]
+material_override = SubResource("StandardMaterial3D_ve7nm")
+
+[node name="Scena_Zloto_Baked" parent="Enviro/L1/CaleOK" index="4" unique_id=1346802424]
+material_override = SubResource("StandardMaterial3D_sbvnb")
+
+[node name="Kamienie_1_Baked" parent="Enviro/L1/CaleOK" index="5" unique_id=1365130160]
+material_override = SubResource("StandardMaterial3D_pkhog")
+
+[node name="L2" type="Node3D" parent="Enviro" unique_id=264034425]
+
+[node name="CaleOK" parent="Enviro/L2" unique_id=1846109340 instance=ExtResource("8_jkdf5")]
+
+[node name="kamienie_3_419_Baked" parent="Enviro/L2/CaleOK" index="0" unique_id=227703043]
+material_override = SubResource("StandardMaterial3D_b4mg0")
+cast_shadow = 0
+
+[node name="Gigant_Baked" parent="Enviro/L2/CaleOK" index="1" unique_id=1031054278]
+material_override = SubResource("StandardMaterial3D_g52ui")
+cast_shadow = 0
+
+[node name="Sphere_Baked" parent="Enviro/L2/CaleOK" index="2" unique_id=578315270]
+material_override = SubResource("StandardMaterial3D_144ni")
+cast_shadow = 0
+
+[node name="Sphere_001_Baked" parent="Enviro/L2/CaleOK" index="3" unique_id=1365699739]
+material_override = SubResource("StandardMaterial3D_vm2ri")
+cast_shadow = 0
+
+[node name="kratki giganta_Baked" parent="Enviro/L2/CaleOK" index="4" unique_id=1605705053]
+material_override = SubResource("StandardMaterial3D_reygs")
+cast_shadow = 0
+
+[node name="Circle_Baked" parent="Enviro/L2/CaleOK" index="5" unique_id=1000831609]
+material_override = SubResource("StandardMaterial3D_tlp2u")
+cast_shadow = 0
+
+[node name="Circle_003_Baked" parent="Enviro/L2/CaleOK" index="6" unique_id=280201448]
+material_override = SubResource("StandardMaterial3D_wx2j7")
+cast_shadow = 0
+
+[node name="Teleport_Pionts" type="Node3D" parent="." unique_id=800355758]
+
+[node name="P1_Pionek" type="Marker3D" parent="Teleport_Pionts" unique_id=330948890]
+transform = Transform3D(-2.2, 0, 1.923301e-07, 0, 2.2, 0, -1.923301e-07, 0, -2.2, 0, 1.7, 3.9)
+
+[node name="P2_Wieza" type="Marker3D" parent="Teleport_Pionts" unique_id=490716227]
+transform = Transform3D(1.0564913, 0, -1.9297216, 0, 2.2, 0, 1.9297216, 0, 1.0564913, 3.2, 1.7, -2.2)
+
+[node name="P3_Goniec" type="Marker3D" parent="Teleport_Pionts" unique_id=559320968]
+transform = Transform3D(0.93323874, 0, 1.9922514, 0, 2.2, 0, -1.9922514, 0, 0.93323874, -3.2, 1.7, -2.2)
+
+[node name="P4_Skoczek" type="Marker3D" parent="Teleport_Pionts" unique_id=934509891]
+transform = Transform3D(2.1998794, 0, -0.02303825, 0, 2.2, 0, 0.02303825, 0, 2.1998794, 0, 1.7, -3.9)
+
+[node name="P5_Hetman" type="Marker3D" parent="Teleport_Pionts" unique_id=645743167]
+transform = Transform3D(-0.8772479, 0, -2.017532, 0, 2.2, 0, 2.017532, 0, -0.8772479, 3.2, 1.7, 2.2)
+
+[node name="P6_Krol" type="Marker3D" parent="Teleport_Pionts" unique_id=1404602537]
+transform = Transform3D(-0.97819716, 0, 1.970566, 0, 2.2, 0, -1.970566, 0, -0.97819716, -3.2, 1.7, 2.2)
+
+[node name="P0_Center" type="Marker3D" parent="Teleport_Pionts" unique_id=323230343]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.4, 0)
+
+[node name="UI" type="CanvasLayer" parent="." unique_id=1900141076]
+
+[node name="FPSlabel" type="Label" parent="UI" unique_id=1743648243]
+anchors_preset = -1
+offset_left = 777.0
+offset_top = 5.0
+offset_right = 1147.0
+offset_bottom = 28.0
+horizontal_alignment = 1
+
+[node name="ControlPanel" type="Panel" parent="UI" unique_id=1027303136]
+offset_right = 40.0
+offset_bottom = 40.0
+offset_transform_enabled = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="UI/ControlPanel" unique_id=1318595635]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="HBoxContainer3" type="HBoxContainer" parent="UI/ControlPanel/VBoxContainer" unique_id=1431170871]
+layout_mode = 2
+
+[node name="BtnFig1" type="Button" parent="UI/ControlPanel/VBoxContainer/HBoxContainer3" unique_id=989344900]
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "1"
+
+[node name="BtnFig2" type="Button" parent="UI/ControlPanel/VBoxContainer/HBoxContainer3" unique_id=1046025814]
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "2"
+
+[node name="BtnFig3" type="Button" parent="UI/ControlPanel/VBoxContainer/HBoxContainer3" unique_id=2051603758]
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "3"
+
+[node name="BtnFig4" type="Button" parent="UI/ControlPanel/VBoxContainer/HBoxContainer3" unique_id=1484732548]
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "4"
+
+[node name="BtnFig5" type="Button" parent="UI/ControlPanel/VBoxContainer/HBoxContainer3" unique_id=322494122]
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "5"
+
+[node name="BtnFig6" type="Button" parent="UI/ControlPanel/VBoxContainer/HBoxContainer3" unique_id=869048223]
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "6"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="UI/ControlPanel/VBoxContainer" unique_id=1556862771]
+layout_mode = 2
+
+[node name="BtnCenter" type="Button" parent="UI/ControlPanel/VBoxContainer/HBoxContainer" unique_id=729555908]
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "🏠 Centrum"
+
+[node name="BtnNext" type="Button" parent="UI/ControlPanel/VBoxContainer/HBoxContainer" unique_id=1621975575]
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "⏭️ Dalej"
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="UI/ControlPanel/VBoxContainer" unique_id=1404862906]
+layout_mode = 2
+
+[node name="BtnSky" type="Button" parent="UI/ControlPanel/VBoxContainer/HBoxContainer2" unique_id=1895780742]
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "🌄 Niebo"
+
+[node name="BtnTlo" type="Button" parent="UI/ControlPanel/VBoxContainer/HBoxContainer2" unique_id=480075100]
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "🌳 Tło"
+
+[node name="BtnScena" type="Button" parent="UI/ControlPanel/VBoxContainer/HBoxContainer2" unique_id=162428692]
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "🏛️ Scena"
+
+[node name="XROrigin3D" type="XROrigin3D" parent="." unique_id=640648159]
+
+[node name="XRCamera3D" type="XRCamera3D" parent="XROrigin3D" unique_id=756485967]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.7, 0)
+
+[node name="LeftController" type="XRController3D" parent="XROrigin3D" unique_id=1325700015]
+tracker = &"left_hand"
+
+[node name="RightController" type="XRController3D" parent="XROrigin3D" unique_id=504047875]
+tracker = &"right_hand"
+
+[connection signal="pressed" from="UI/ControlPanel/VBoxContainer/HBoxContainer3/BtnFig1" to="." method="_on_btn_fig1_pressed"]
+[connection signal="pressed" from="UI/ControlPanel/VBoxContainer/HBoxContainer3/BtnFig2" to="." method="_on_btn_fig2_pressed"]
+[connection signal="pressed" from="UI/ControlPanel/VBoxContainer/HBoxContainer3/BtnFig3" to="." method="_on_btn_fig3_pressed"]
+[connection signal="pressed" from="UI/ControlPanel/VBoxContainer/HBoxContainer3/BtnFig4" to="." method="_on_btn_fig4_pressed"]
+[connection signal="pressed" from="UI/ControlPanel/VBoxContainer/HBoxContainer3/BtnFig5" to="." method="_on_btn_fig5_pressed"]
+[connection signal="pressed" from="UI/ControlPanel/VBoxContainer/HBoxContainer3/BtnFig6" to="." method="_on_btn_fig6_pressed"]
+[connection signal="pressed" from="UI/ControlPanel/VBoxContainer/HBoxContainer/BtnCenter" to="." method="_on_btn_center_pressed"]
+[connection signal="pressed" from="UI/ControlPanel/VBoxContainer/HBoxContainer/BtnNext" to="." method="_on_btn_next_pressed"]
+[connection signal="pressed" from="UI/ControlPanel/VBoxContainer/HBoxContainer2/BtnSky" to="." method="_on_btn_sky_pressed"]
+[connection signal="pressed" from="UI/ControlPanel/VBoxContainer/HBoxContainer2/BtnTlo" to="." method="_on_btn_tlo_pressed"]
+[connection signal="pressed" from="UI/ControlPanel/VBoxContainer/HBoxContainer2/BtnScena" to="." method="_on_btn_scena_pressed"]
+
+[editable path="Pionki/Goniec"]
+[editable path="Pionki/Hetman"]
+[editable path="Pionki/pionek"]
+[editable path="Pionki/Skoczek"]
+[editable path="Pionki/Wieża"]
+[editable path="Pionki/Król"]
+[editable path="Enviro/L1/CaleOK"]
+[editable path="Enviro/L2/CaleOK"]
